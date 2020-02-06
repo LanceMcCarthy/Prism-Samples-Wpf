@@ -1,10 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>ModuleA</AssemblyName>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Prism.Wpf" Version="7.2.0.1367" />
+    <PackageReference Include="Telerik.Windows.Controls.Data.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.Expressions.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.GridView.Export.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.GridView.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.Input.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.Navigation.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Controls.RibbonView.for.Wpf.Xaml" Version="2020.1.115" />
+    <PackageReference Include="Telerik.Windows.Data.for.Wpf.Xaml" Version="2020.1.115" />
   </ItemGroup>
 </Project>
